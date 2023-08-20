@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Ejercicio 6</title>
+</head>
+<body>
+    <form action="Ruta a la DB" method="post" enctype="multipart/form-data">
+        <h1>Registrar un nusuario</h1>
+        <label for="user">Nombre del usuario: </label><br>
+        <input type="text" id="user"><br>
+        <label for="pass">Contraseña del usuario: </label><br>
+        <input type="password" id="pass"><br>
+        <label for="edad">Edad del usuario: </label><br>
+        <input type="number" id="edad"><br>
+        <label for="fecha">Fecha de nacimiento: </label><br>
+        <input type="date" id="fecha"><br>
+        <label for="genero">Sexo del usuario: </label><br>
+        <input type="radio" id="Masculino" name="genero" value="1">
+        <label for="Masculino">Masculino</label><br>
+        <input type="radio" id="Femenino" name="genero" value="2">
+        <label for="Femenino">Femenino</label><br>
+        <input type="radio" id="Otros" name="genero" value="3">
+        <label for="Otros">Prefiero no decir</label><br>
+        <select name="nacionalidad">
+            <option value="1">Argentina</option>
+            <option value="2">Brasil</option>
+            <option value="3">Chile</option>
+        </select><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>

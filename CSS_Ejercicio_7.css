@@ -1,0 +1,25 @@
+p {
+    font-size: 12;
+    font-family: Arial, Helvetica;
+    font-weight: normal;
+    text-align: left;
+}
+h1 {
+    font-size: 36;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    background-color: green;
+}
+h2 {
+    font-size: 25;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: double;
+    text-align: center;
+    background-color: blue;
+}
+body {
+    background-color: black;
+    font-family: Arial;
+    color: white;
+}

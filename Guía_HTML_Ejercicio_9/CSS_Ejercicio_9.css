@@ -1,0 +1,18 @@
+#titulo {color: cadetblue;}
+p strong {color: red;}
+p .destacado {color: orange;}
+#subtitulo {color: blue;}
+a {color: red;}
+a em {color: blue;}
+p .especial {color: darkmagenta;}
+table {border-collapse: collapse;}
+td, th {border: 1px solid black;}
+thead {color: orange;}
+tbody {color: green;}
+tbody .especial {color: orange;}
+tbody th {color: red;}
+tbody strong {color: orange;}
+tfoot {color: red;}
+div {color: olive;}
+#adicional #especial {color: fuchsia;}
+#adicional a {color: green;}
