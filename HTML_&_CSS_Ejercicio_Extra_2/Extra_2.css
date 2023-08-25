@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+    font-family: 'Arial';
+    text-align: center;
+}
+thead {
+    background-color: lightgrey;
+}
+tbody th {
+    background-color: #E6F3FF;
+    text-align: left;
+}
+tr.resaltado {
+    background-color: #FFFFCC;
+}
