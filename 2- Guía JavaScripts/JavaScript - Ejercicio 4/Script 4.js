@@ -2,7 +2,7 @@
 ingresa alguno de esos dos caracteres se deberá de imprimir un mensaje por pantalla 
 que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”.*/
 
-var resp = prompt("Ingrese S o N");
+var resp = prompt("Ingrese S o N").toUpperCase();
 if (resp === 'S' || resp === 'N') {
     alert("CORRECTO");
 } else {

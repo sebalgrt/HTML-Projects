@@ -6,24 +6,28 @@ o ‘m’ para la multiplicación y ‘D’ o ‘d’ para la división.*/
 
 var num1 = 10;
 var num2 = 2;
-var op = prompt("Ingrese que operación desa realizar (S, R, M ó D)");
-var res = 0;
-switch (op) {
-    case 'S': 
-        res = num1 + num2;
-        break;
-    case 'R': 
-        res = num1 - num2;
-        break;
-    case 'M': 
-        res = num1 * num2;
-        break;
-    case 'D': 
-        res = num1 / num2;
-        break;
-    default: alert("La operación indicada no es correcta");
-        break;
-}
-if (res != 0) {
-    alert("El resultado es " + res);    
-}
+do {
+    var op = prompt("Ingrese que operación desa realizar (S, R, M ó D)\n(Presione * para salir)").toUpperCase();
+    switch (op) {
+        case "S":
+            alert("El resultado es " + (num1 + num2));
+            break;
+        case "R":
+            alert("El resultado es " + (num1 - num2));
+            break;
+        case "M":
+            alert("El resultado es " + (num1 * num2));
+            break;
+        case "D":
+            alert("El resultado es " + (num1 / num2));
+            break;
+        case "*":
+            alert("Adiós!");
+            break;
+        default: alert("La operación indicada no es correcta");
+            break;
+    }
+} while (op != "*");
+
+
+
