@@ -1,14 +1,14 @@
 import React from 'react'
 
-const Main1 = () => {
+const Main2 = () => {
   return (
     <div>
-        <Hijo nombre = "Seba"/>;
+      <Hijo nombre = "Martinez"/>;
     </div>
   )
 }
 
-export default Main1
+export default Main2
 
 function Hijo(props) {
     return <h1>Hola, {props.nombre}</h1>
